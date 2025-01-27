@@ -34,7 +34,7 @@ const SavedCandidates = () => {
       </div> )};
 
   return (
-    <div className="container">
+    <div className="container d-flex flex-column align-items-center" style={{width: '80vw'}}>
       <h1>Saved Candidates</h1>
       <table>
         <thead>
