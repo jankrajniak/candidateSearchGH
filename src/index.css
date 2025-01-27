@@ -118,3 +118,16 @@ tbody tr:nth-child(odd) {
   width: 80vw;
   table-layout: fixed;
 }
+
+th, td {
+  border: 20px solid transparent !important;
+  text-align: left;
+}
+
+table {
+  border-collapse: separate !important;
+}
+
+.background-black {
+  background-color: #000 !important;
+}
