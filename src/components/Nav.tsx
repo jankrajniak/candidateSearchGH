@@ -10,7 +10,7 @@ const Nav = () => {
   const location = useLocation();
 
   return (
-    <div className = "header">
+    <div className = "header d-dlex justify-content-start vw-100">
       <nav className = "navbar navbar-expand-sm">
         <div className = "container-fluid">
           <div className = "collapse navbar-collapse">
